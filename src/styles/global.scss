@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: inherit;
+  -webkit-tap-highlight-color: transparent;
+  font-family: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font: {
+    weight: inherit;
+    size: inherit;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  all: unset;
+}
+
+a {
+  text-decoration: none;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg);
+  color: var(--color-black);
+
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}

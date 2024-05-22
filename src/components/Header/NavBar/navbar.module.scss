@@ -1,0 +1,31 @@
+@import "@/styles/utils/mixins";
+
+.nav {
+  ul {
+    display: flex;
+    gap: 54px;
+
+    a {
+      $transitionTime: 0.15s;
+
+      text-transform: uppercase;
+      color: var(--color-gray);
+      font: {
+        size: 17px;
+        weight: 500;
+      }
+      transition: $transitionTime;
+
+      &.active {
+        color: var(--color-black);
+      }
+
+      @include hover-screen {
+        &:hover {
+          color: var(--color-black);
+          transition: $transitionTime;
+        }
+      }
+    }
+  }
+}
