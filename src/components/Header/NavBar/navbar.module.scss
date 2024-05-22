@@ -26,6 +26,13 @@
           transition: $transitionTime;
         }
       }
+
+      @include not-hover-screen {
+        &:active {
+          color: var(--color-black);
+          transition: $transitionTime;
+        }
+      }
     }
   }
 }
