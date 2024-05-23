@@ -28,16 +28,16 @@
   $transitionTime: 0.1s;
   user-select: none;
   cursor: text;
-  padding: 15px 80px 15px 15px;
+  padding-block: 15px;
 
   transition: $transitionTime;
 
   &.iconRight {
-    padding-right: 45px;
+    padding-inline: 45px;
   }
 
   &.iconLeft {
-    padding-left: 45px;
+    padding-inline: 45px;
   }
 
   background: var(--color-white_contrast);
