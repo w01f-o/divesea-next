@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-spring/web": "^9.7.3",
     "@w01f-o/react-grid-layout": "^1.0.3",
     "clsx": "^2.1.1",
     "json-server": "^1.0.0-beta.0",
