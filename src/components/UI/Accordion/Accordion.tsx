@@ -1,7 +1,9 @@
 import { FC } from "react";
 
-const Accordion: FC = () => {
-  return <div></div>;
+interface AccordionProps {}
+
+const Accordion: FC<AccordionProps> = ({}) => {
+  return <></>;
 };
 
 export default Accordion;
