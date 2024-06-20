@@ -1,7 +1,7 @@
 "use client";
 
 import { ChangeEvent, FC, FormEvent, useState } from "react";
-import SearchIcon from "@/components/UI/Icons/SearchIcon";
+import SearchIcon from "@/components/UI/Icons/Search";
 import Input from "@/components/UI/Input/Input";
 import { useRouter } from "next/navigation";
 
@@ -18,7 +18,6 @@ const Search: FC = () => {
 
     const url = new URLSearchParams();
     url.set("nft", inputValue);
-    url.set("creator", inputValue);
 
     router.push(`/search?${url}`);
   };

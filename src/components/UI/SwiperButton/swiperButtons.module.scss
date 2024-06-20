@@ -1,0 +1,22 @@
+.wrapper {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 17.25px;
+  overflow: hidden;
+  box-shadow: 0 40px 58px -16px rgba(15, 15, 15, 0.4);
+  background: var(--color-white);
+}
+
+.separator {
+  display: block;
+  height: 25px;
+  width: 2px;
+  border-radius: 8px;
+  background: var(--color-white_contrast);
+}
+
+.button {
+  padding: 21px;
+  background: none;
+  border: none;
+}
