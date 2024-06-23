@@ -3,7 +3,7 @@
 import { FC } from "react";
 import swiperButtonStyles from "./swiperButtons.module.scss";
 import { clsx } from "clsx";
-import Arrow from "@/components/UI/Icons/Arrow";
+import Arrow from "@/components/Shared/Icons/Arrow";
 import { useSwiper } from "swiper/react";
 
 interface SwiperButtonProps {

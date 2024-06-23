@@ -2,11 +2,11 @@ import { FC } from "react";
 import { Col, Container, Row } from "@w01f-o/react-grid-layout";
 import headerStyles from "./header.module.scss";
 import Link from "next/link";
-import Logo from "@/components/UI/Icons/Logo";
-import NavBar from "@/components/Header/NavBar/NavBar";
-import Button from "@/components/UI/Button/Button";
-import Search from "@/components/Header/Search";
+import NavBar from "@/components/Widgets/Header/NavBar/NavBar";
+import Search from "@/components/Widgets/Header/Search";
 import "swiper/css";
+import Logo from "@/components/Shared/Icons/Logo";
+import Button from "@/components/Shared/UI/Button/Button";
 
 const Header: FC = () => {
   return (
@@ -14,7 +14,7 @@ const Header: FC = () => {
       <Container>
         <Row className={headerStyles.row}>
           <Col xxl={1}>
-            <Link href="/" title="Home page">
+            <Link href="/public" title="Home page">
               <Logo fill="black" />
             </Link>
           </Col>

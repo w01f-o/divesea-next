@@ -2,11 +2,11 @@ import { FC } from "react";
 import { Col, Container, Row } from "@w01f-o/react-grid-layout";
 import footerStyles from "./footer.module.scss";
 import { footerLinks } from "@/constants/footerLinks";
-import Logo from "@/components/UI/Icons/Logo";
-import Instagram from "@/components/UI/Icons/Instagram";
-import In from "@/components/UI/Icons/In";
-import Facebook from "@/components/UI/Icons/Facebook";
-import Twitter from "@/components/UI/Icons/Twitter";
+import Logo from "@/components/Shared/Icons/Logo";
+import Instagram from "@/components/Shared/Icons/Instagram";
+import In from "@/components/Shared/Icons/In";
+import Facebook from "@/components/Shared/Icons/Facebook";
+import Twitter from "@/components/Shared/Icons/Twitter";
 
 const Footer: FC = () => {
   return (

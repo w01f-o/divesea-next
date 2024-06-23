@@ -3,10 +3,10 @@ import { Poppins } from "next/font/google";
 import { ReactNode } from "react";
 import NextTopLoader from "nextjs-toploader";
 import "@w01f-o/react-grid-layout/css";
-import Header from "@/components/Header/Header";
-import Footer from "@/components/Footer/Footer";
+import Header from "@/components/Widgets/Header/Header";
 import "@/styles/vars.scss";
 import "@/styles/global.scss";
+import Footer from "@/components/Widgets/Footer/Footer";
 
 const poppins = Poppins({
   subsets: ["latin"],

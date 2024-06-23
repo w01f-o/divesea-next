@@ -1,5 +1,5 @@
 import { FC, useState } from "react";
-import AccordionItem from "@/components/UI/Accordion/AccordionItem";
+import AccordionItem from "@/components/Shared/Accordion/AccordionItem";
 import accordionStyles from "./accordion.module.scss";
 
 interface AccordionProps {

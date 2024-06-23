@@ -1,7 +1,7 @@
 import { Dispatch, FC, SetStateAction, MouseEvent, ReactNode } from "react";
 import styles from "./modal.module.scss";
 import { animated, useTransition } from "@react-spring/web";
-import ReactPortal from "@/components/ReactPortal/ReactPortal";
+import ReactPortal from "@/components/Features/ReactPortal/ReactPortal";
 
 interface ModalProps {
   isOpen: boolean;

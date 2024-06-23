@@ -1,9 +1,9 @@
 "use client";
 
 import { ChangeEvent, FC, FormEvent, useState } from "react";
-import SearchIcon from "@/components/UI/Icons/Search";
-import Input from "@/components/UI/Input/Input";
 import { useRouter } from "next/navigation";
+import Input from "@/components/Shared/UI/Input/Input";
+import SearchIcon from "@/components/Shared/Icons/Search";
 
 const Search: FC = () => {
   const [inputValue, setInputValue] = useState<string>("");
