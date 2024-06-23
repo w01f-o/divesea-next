@@ -1,11 +1,12 @@
 import { Dispatch, FC, SetStateAction } from "react";
 import accordionStyles from "./accordion.module.scss";
+import { IAccordionItem } from "@/types/accordionItem.type";
 import { clsx } from "clsx";
 
 interface AccordionItemProps {
   openId: number;
   setOpenId: Dispatch<SetStateAction<number>>;
-  item: AccordionItem;
+  item: IAccordionItem;
 }
 
 const AccordionItem: FC<AccordionItemProps> = ({ item, openId, setOpenId }) => {

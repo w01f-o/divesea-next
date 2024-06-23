@@ -1,9 +1,10 @@
 import { FC, useState } from "react";
-import AccordionItem from "@/components/Shared/Accordion/AccordionItem";
+import { IAccordionItem } from "@/types/accordionItem.type";
+import AccordionItem from "./AccordionItem";
 import accordionStyles from "./accordion.module.scss";
 
 interface AccordionProps {
-  items: AccordionItem[];
+  items: IAccordionItem[];
 }
 
 const Accordion: FC<AccordionProps> = ({ items }) => {

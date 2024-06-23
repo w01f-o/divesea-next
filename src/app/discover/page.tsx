@@ -1,4 +1,5 @@
 import { NextPage } from "next";
+import Catalog from "@/components/Widgets/Catalog/Catalog";
 
 export const generateMetadata = () => {
   return {
@@ -7,7 +8,11 @@ export const generateMetadata = () => {
 };
 
 const Discover: NextPage = () => {
-  return <></>;
+  return (
+    <>
+      <Catalog />
+    </>
+  );
 };
 
 export default Discover;

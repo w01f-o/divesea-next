@@ -1,8 +1,10 @@
+"use client";
+
 import { FC } from "react";
 import { Col, Container, Row } from "@w01f-o/react-grid-layout";
 import headerStyles from "./header.module.scss";
 import Link from "next/link";
-import NavBar from "@/components/Widgets/Header/NavBar/NavBar";
+import NavBar from "@/components/Widgets/NavBar/NavBar";
 import Search from "@/components/Widgets/Header/Search";
 import "swiper/css";
 import Logo from "@/components/Shared/Icons/Logo";
@@ -14,7 +16,7 @@ const Header: FC = () => {
       <Container>
         <Row className={headerStyles.row}>
           <Col xxl={1}>
-            <Link href="/public" title="Home page">
+            <Link href="/" title="Home page">
               <Logo fill="black" />
             </Link>
           </Col>
@@ -29,7 +31,6 @@ const Header: FC = () => {
               Connect wallet
             </Button>
           </Col>
-          <Col xs={12}></Col>
         </Row>
       </Container>
     </header>
