@@ -8,7 +8,7 @@ interface AccordionProps {
 }
 
 const Accordion: FC<AccordionProps> = ({ items }) => {
-  const [openId, setOpenId] = useState<number>(0);
+  const [openId, setOpenId] = useState<number | null>(0);
 
   return (
     <div className={accordionStyles.accordion}>

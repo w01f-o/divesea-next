@@ -4,14 +4,14 @@ import { IAccordionItem } from "@/types/accordionItem.type";
 import { clsx } from "clsx";
 
 interface AccordionItemProps {
-  openId: number;
-  setOpenId: Dispatch<SetStateAction<number>>;
+  openId: number | null;
+  setOpenId: Dispatch<SetStateAction<number | null>>;
   item: IAccordionItem;
 }
 
 const AccordionItem: FC<AccordionItemProps> = ({ item, openId, setOpenId }) => {
   const handleClick = (): void => {
-    setOpenId(item.id === openId ? 0 : item.id);
+    setOpenId(item.id === openId ? null : item.id);
   };
 
   return (
